@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui';
 import { cn } from '@/lib/utils';
 
 const Header = () => {
@@ -63,14 +62,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:flex items-center space-x-4">
-            <button className="text-olive-green hover:text-terracotta transition-colors duration-300 font-medium">
-              Login
-            </button>
-            <Button size="sm">Join Waitlist</Button>
-          </div>
-
           {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 text-olive-green hover:text-terracotta transition-colors duration-300"
@@ -105,14 +96,7 @@ const Header = () => {
                 {item.name}
               </a>
             ))}
-            <div className="flex flex-col space-y-3 pt-4">
-              <button className="text-olive-green hover:text-terracotta transition-colors duration-300 font-medium text-left">
-                Login
-              </button>
-              <Button size="sm" className="w-full">
-                Join Waitlist
-              </Button>
-            </div>
+
           </div>
         </div>
       </div>

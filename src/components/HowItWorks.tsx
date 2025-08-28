@@ -129,7 +129,7 @@ const HowItWorks = () => {
   };
 
   return (
-    <section id="how-it-works" className="py-20 lg:pt-16 lg:pb-32 relative overflow-hidden">
+    <section id="how-it-works" className="py-20 lg:pt-8 lg:pb-32 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-cream to-sandy-beige/30" />
       

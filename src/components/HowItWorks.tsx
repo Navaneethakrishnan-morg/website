@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const HowItWorks = () => {
   return (
-    <section id="how-it-works" className="py-16 relative overflow-hidden">
+    <section id="how-it-works" className="py-8 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-cream to-sandy-beige/30" />
       
@@ -40,7 +40,7 @@ const HowItWorks = () => {
 
       <div className="container-custom relative z-10">
         {/* Empty section for spacing */}
-        <div className="h-16"></div>
+        <div className="h-8"></div>
       </div>
     </section>
   );

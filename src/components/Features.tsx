@@ -75,7 +75,7 @@ const Features = () => {
   };
 
   return (
-    <section id="features" className="py-20 lg:pt-32 lg:pb-16 relative overflow-hidden">
+    <section id="features" className="py-20 lg:pt-32 lg:pb-6 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(203,153,126,0.1),transparent)] pointer-events-none" />
@@ -165,7 +165,7 @@ const Features = () => {
 
         {/* CTA Section */}
         <motion.div
-          className="text-center mt-8"
+          className="text-center mt-6"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

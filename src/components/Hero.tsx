@@ -133,7 +133,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 1.0 }}
             >
               <Button size="lg" className="group">
-                Start Learning Now
+                Join Waitlist
                 <motion.div
                   className="ml-2"
                   animate={{ x: [0, 5, 0] }}

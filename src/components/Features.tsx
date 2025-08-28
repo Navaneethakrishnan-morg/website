@@ -188,7 +188,7 @@ const Features = () => {
                 boxShadow: "0 20px 40px rgba(203, 153, 126, 0.3)",
               }}
             >
-              Try LuminalQ Free
+              Join Waitlist
             </motion.button>
           </motion.div>
         </motion.div>

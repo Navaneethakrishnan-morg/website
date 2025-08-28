@@ -68,7 +68,7 @@ const Header = () => {
             <button className="text-olive-green hover:text-terracotta transition-colors duration-300 font-medium">
               Login
             </button>
-            <Button size="sm">Get Started</Button>
+            <Button size="sm">Join Waitlist</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -110,7 +110,7 @@ const Header = () => {
                 Login
               </button>
               <Button size="sm" className="w-full">
-                Get Started
+                Join Waitlist
               </Button>
             </div>
           </div>

@@ -1,0 +1,39 @@
+{
+  "name": "luminalq-landing",
+  "version": "0.1.0",
+  "description": "LuminalQ - AI Learning Assistant Landing Page",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "learning",
+    "education",
+    "pdf",
+    "chat"
+  ],
+  "author": "yal786",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.8",
+    "autoprefixer": "^10.4.14",
+    "clsx": "^2.1.1",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^15.5.2",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.542.0",
+    "next": "^15.5.2",
+    "postcss": "^8.4.24",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.9.2"
+  }
+}

@@ -34,7 +34,7 @@ const Footer = () => {
                          focus:outline-none focus:ring-4 focus:ring-terracotta/50
                          whitespace-nowrap"
               >
-                Subscribe
+                Submit
               </button>
             </div>
           </div>
